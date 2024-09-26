@@ -22,8 +22,6 @@ body {
     align-items: center;
 }
 
-
-
 .logo {
     width: 75px;
     border-radius: 100%;
@@ -31,6 +29,8 @@ body {
 
 .footer {
     margin-top: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .content-body {
