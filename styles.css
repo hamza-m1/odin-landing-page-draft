@@ -6,7 +6,7 @@ body {
 }
 
 .header, .footer {
-    flex: 0 0 50px;
+    flex: 0 0 40px;
     background-color: beige;
     display: flex;
     padding: 10px 100px;
@@ -16,14 +16,14 @@ body {
     justify-content: space-between;
 }
 
-.header-left, .header-right, .header-links {
+.header-left, .header-links {
     display: flex;
     gap: 30px;
     align-items: center;
 }
 
 .logo {
-    width: 75px;
+    width: 60px;
     border-radius: 100%;
 }
 
