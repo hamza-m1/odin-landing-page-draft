@@ -66,6 +66,7 @@ body {
 
 .panel-one-image {
     height: 150px;
+    padding: auto;
 }
 
 
@@ -97,6 +98,26 @@ body {
 
 .panel-two-content p {
     text-align: center;
+}
+
+
+
+.panel-three {
+    flex-direction: column;
+    gap: 2px;
+    justify-content: center;
+}
+
+.panel-three .name {
+    align-self: flex-end;
+}
+
+.quote {
+    font-size: 20px;
+}
+
+.name {
+    font-weight: bold;
 }
 
 ul {
