@@ -120,6 +120,47 @@ body {
     font-weight: bold;
 }
 
+
+
+.panel-four {
+    justify-content: center;
+    align-items: center;
+}
+
+.panel-four .container {
+    display: flex;
+    background-color: lightblue;
+    padding: 20px 50px;
+    flex: 1 1 auto;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.panel-four .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+}
+
+.panel-four p {
+    margin: 0px;
+    color: white;
+}
+
+.panel-four .text {
+    font-size: 11px;
+}
+
+.panel-four .title {
+    font-weight: bold;
+}
+
+.panel-four button {
+    padding: 10px 20px;
+}
+
 ul {
     list-style-type: none;
     padding: 0px;
